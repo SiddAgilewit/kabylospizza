@@ -1,5 +1,3 @@
-
-
 export const First = (state: number = 0, action: any): number => {
     switch (action.type) {
         case "Increase":
