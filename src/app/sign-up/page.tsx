@@ -74,7 +74,7 @@ export default function SignupPage() {
               required
             />
           </div>
-          <p className="text-center">Already have an account? <a className="text-blue-300" href="/sign-in">Sign-In</a></p>
+          <p className="text-center">Already have an account? <a className="text-blue-400" href="/sign-in">Sign-In</a></p>
           <button
             type="submit"
             className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300"

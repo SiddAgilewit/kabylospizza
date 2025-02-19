@@ -1,9 +1,11 @@
 import Image from "next/image";
+import { HomePage } from "./Home/page";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1>Home</h1>
-    </div>
+ 
+      <HomePage/>
+      
+   
   );
 }
